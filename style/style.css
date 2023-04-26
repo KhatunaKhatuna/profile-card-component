@@ -1,0 +1,92 @@
+.body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+.wrapper {
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  background: url("../images/bg-pattern-top.svg") bottom 38vh right 52vw
+      no-repeat,
+    url("../images/bg-pattern-bottom.svg") top 52vh left 48vw no-repeat #19a1ae;
+}
+.card-wrapper {
+  padding: 0 24px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 326px;
+  height: 374px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.pattern-card-img {
+  width: 100%;
+  height: 140px;
+}
+
+.personal-info {
+  margin-bottom: 28px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6b7082;
+  letter-spacing: 1.3px;
+}
+.personal-image {
+  display: block;
+  margin: -48px auto 16px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  position: relative;
+}
+.full-name {
+  color: #2e3349;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.citizen {
+  display: block;
+  margin-top: 13px;
+  text-transform: capitalize;
+  line-height: 10px;
+  letter-spacing: 1.5px;
+}
+hr {
+  background-color: #e8e9ec;
+  margin-bottom: 24px;
+  height: 1px;
+}
+.social-activites {
+  padding: 0 52.5px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-activites-item {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12.4px;
+  letter-spacing: 1.5px;
+  color: #6b7082;
+  text-align: center;
+  text-transform: capitalize;
+}
+.social-activites-item span {
+  display: block;
+}
+.amount {
+  color: #2e3349;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 2.5px;
+}
+@media (min-width: 700px) {
+  .card {
+    width: 350px;
+  }
+}
