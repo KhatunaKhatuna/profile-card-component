@@ -1,1 +1,3 @@
-# Frontend Mentor - Profile card component
+# Profile card component
+
+https://khatunakhatuna.github.io/profile-card-component/
